@@ -12,7 +12,7 @@ El sistema de verificación Kcapcha es una robusta aplicación web diseñada par
 ### 2. Verificación de Usuarios
 - **checkIP.js:** Módulo que verifica la dirección IP del usuario para determinar su autenticidad.
 - **saveUserInfo.js:** Módulo que guarda la información del usuario, incluyendo su dirección IP y agente de usuario, en el servidor para su posterior verificación.
-- **server.js:** Archivo principal que define el servidor HTTP y maneja las solicitudes de verificación de usuarios.
+- **index.js:** Archivo principal que define el servidor HTTP y maneja las solicitudes de verificación de usuarios.
 
 ### 3. Protección contra DDoS
 - **server.js:** Implementa medidas para mitigar ataques de denegación de servicio distribuido (DDoS), como el registro de solicitudes por IP y el bloqueo temporal de direcciones IP sospechosas.

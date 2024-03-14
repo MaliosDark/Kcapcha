@@ -15,7 +15,7 @@ El sistema de verificación Kcapcha es una robusta aplicación web diseñada par
 - **index.js:** Archivo principal que define el servidor HTTP y maneja las solicitudes de verificación de usuarios.
 
 ### 3. Protección contra DDoS
-- **server.js:** Implementa medidas para mitigar ataques de denegación de servicio distribuido (DDoS), como el registro de solicitudes por IP y el bloqueo temporal de direcciones IP sospechosas.
+- **index.js:** Implementa medidas para mitigar ataques de denegación de servicio distribuido (DDoS), como el registro de solicitudes por IP y el bloqueo temporal de direcciones IP sospechosas.
 
 ### 4. Visualización de Datos
 - **grafy.html:** Página que muestra gráficos de las direcciones IP más frecuentes entre los visitantes, proporcionando una visión clara de la actividad del sistema.
